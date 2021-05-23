@@ -1,0 +1,26 @@
+{
+  "name": "Node_API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "doc": "jsdoc -c jsdoc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "jsdom": "^16.5.3",
+    "mongodb": "^3.6.7",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.7"
+  }
+}

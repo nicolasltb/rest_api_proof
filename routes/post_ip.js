@@ -8,7 +8,7 @@ import { insert_DB } from '../utils/db_config.js';
 const router = express.Router();
 
 router.post('/', (req, res) => {
-
+    console.log(req.body);
     if (req.body.length > 1) {
         let ip = [];
         req.body.forEach(element => {

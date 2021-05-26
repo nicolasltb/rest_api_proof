@@ -7,7 +7,7 @@ import express from 'express';
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.sendFile('/homepage.html', { root: './' });
+    res.sendFile('templates/homepage.html', { root: './' });
 });
 
 export default router;

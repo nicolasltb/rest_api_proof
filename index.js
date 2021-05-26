@@ -20,5 +20,6 @@ app.use('/', homeRoute);
 app.use('/get_tor', torRoute);
 app.use('/post_ip', postIpRoute);
 app.use('/get_tor_filtered', torFilteredRoute);
+app.use('/css', express.static('public/stylesheets'));
 
 app.listen(PORT, () => console.log(`Server running on: http://localhost:${PORT}`));

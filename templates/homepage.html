@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/css/styles.css">
+    <title>Homepage - Rest API</title>
+</head>
+
+<body>
+    <!-- Trigger/Open The Modal -->
+    <button id="bttModal">?</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="textModal">Some text in the Modal..</p>
+        </div>
+
+    </div>
+    <div class="body_component">
+        <div class="wrapper">
+            <div class="img_bg">
+                <div class="img_content">
+                    <h1><strong>Proof API</strong> allows you to manipulate and get lists of Tor network ip addresses.
+                    </h1>
+                </div>
+            </div>
+            <div class="content">
+                <div class="routes">
+                    <h1>Routes</h1>
+                    <button class="btt" id="btt1"><a href="http://localhost:5000/get_tor">FULL TOR LIST</a></button>
+                    <button class="btt" id="btt2"><a href="http://localhost:5000/get_tor_filtered">FILTERED TOR
+                            LIST</a></button>
+                    <button class="btt" id="btt3"><a href="http://localhost:5000/">POST AN IP</a></button>
+                    <input placeholder="Ex: 192.168.0.1" type="text" name="ip_address" id="ip">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/css/home_function.js"></script>
+</body>
+
+</html>

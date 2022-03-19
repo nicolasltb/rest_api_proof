@@ -1,5 +1,5 @@
-# Proof - API
-A Proof-API foi construída para desenvolver uma aplicação que nos permita obter uma lista de IPs de redes Tor (https://www.torproject.org/) a partir de fontes externas, distintas e apresentá-los de maneira unificada. Adicionalmente esta aplicação deve possibilitar a indicação de IPs de redes que NÃO queremos que apareçam na lista.
+# PROOF - API
+A PROOF-API foi construída para desenvolver uma aplicação que nos permita obter uma lista de IPs de redes Tor (https://www.torproject.org/) a partir de fontes externas, distintas e apresentá-los de maneira unificada. Adicionalmente esta aplicação deve possibilitar a indicação de IPs de redes que NÃO queremos que apareçam na lista.
 ![alt text](https://media.discordapp.net/attachments/434931484315615242/847252368524705822/unknown.png?width=1335&height=676)
 
 ## Rotas da API

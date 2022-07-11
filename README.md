@@ -8,11 +8,11 @@ A PROOF-API foi construída para desenvolver uma aplicação que nos permita obt
 * Faz o web scraping de ips da rede Tor de fontes externas e os unifica em uma única lista.
 * Retorna uma lista de endereços da rede Tor.
 
-### ``` /get_tor_filtered ```
+### ``` /get_tor_filtered (GET)```
 * Faz o web scraping de ips da rede Tor de fontes externas e os unifica em uma única lista excluindo os ips do banco de dados (MongoDB).
 * Retorna uma lista de endereços da rede Tor filtrada pelos ips indesejados.
 
-### ``` /post_ip ```
+### ``` /post_ip (POST)```
 * Recebe como dado um ip para ser adicionado ao banco de dados. (POST)
 * Não possui retorno.
 
